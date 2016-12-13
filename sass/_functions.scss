@@ -1,0 +1,10 @@
+/* Functions for Application */
+%cf {
+	&::before, &::after {
+		content:" ";
+		display:table;
+	}
+	&::after {
+		clear:both;
+	}
+}

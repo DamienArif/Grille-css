@@ -1,0 +1,35 @@
+// Variables
+$columns: 12!default;
+
+// Functions and Mixins
+%col {
+	float: left;
+	position: relative;
+	min-height: 1px;
+}
+@mixin genere-columns($suffixe: '') {
+	.col-#{$suffixe}-hidden {
+		display: none;
+	}
+	.col-#{$suffixe}-show {
+		display: block;
+	}
+	@for $i from 0 through $columns {
+		.col-#{$suffixe}-offset-#{$i} {
+			margin-left: $i / $columns * 100%;
+		}
+
+		@if $i != 0 {
+			.col-#{$suffixe}-#{$i} {
+				width: $i /$columns * 100%;
+			}
+		}
+	}
+}
+
+
+@for $i from 1 through $columns {
+	.col-l-#{$i},.col-m-#{$i},.col-s-#{$i} {
+		@extend %col;
+	}
+}
