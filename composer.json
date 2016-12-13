@@ -6,6 +6,7 @@
   "type": "library",
   "keywords": ["css","grid","row","grid responsive","sass"],
   "license": "MIT",
+  "minimum-stability": "stable",
   "author": [
     {
       "name": "Damien Arif",
