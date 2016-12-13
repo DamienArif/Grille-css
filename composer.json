@@ -3,6 +3,7 @@
   "description": "A simple and light css grid.",
   "homepage": "https://github.com/Darkh62/grille-css",
   "version": "1.0.0",
+  "keywords": ["css","grid","row","grid responsive","sass"],
   "license": "MIT",
   "author": [
     {
