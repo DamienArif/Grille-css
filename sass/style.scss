@@ -10,8 +10,21 @@
 	@extend %cf;
 }
 
+.t-left {
+	text-align: left;
+}
 
+.t-right {
+	text-align: right;
+}
 
+.t-center {
+	text-align: center;
+}
+
+img {
+	border: 0;
+}
 
 // Version PC
 @media only screen and (min-width: 993px) {

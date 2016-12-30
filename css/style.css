@@ -4,7 +4,6 @@
   min-height: 1px;
 }
 
-/* Functions for Application */
 .row::before, .row::after {
   content: " ";
   display: table;
@@ -19,6 +18,22 @@
   box-sizing: border-box;
 }
 
+.t-left {
+  text-align: left;
+}
+
+.t-right {
+  text-align: right;
+}
+
+.t-center {
+  text-align: center;
+}
+
+img {
+  border: 0;
+}
+
 @media only screen and (min-width: 993px) {
   .col-l-hidden {
     display: none;
@@ -26,6 +41,13 @@
 
   .col-l-show {
     display: block;
+  }
+
+  .col-l-centered {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
   }
 
   .col-l-offset-0 {
@@ -137,6 +159,13 @@
     display: block;
   }
 
+  .col-m-centered {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+
   .col-m-offset-0 {
     margin-left: 0%;
   }
@@ -244,6 +273,13 @@
 
   .col-s-show {
     display: block;
+  }
+
+  .col-s-centered {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
   }
 
   .col-s-offset-0 {

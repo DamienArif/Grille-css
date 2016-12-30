@@ -22,26 +22,10 @@
 </head>
 <body>
     <div class="row">
-        <div class="col-l-12 col-m-12 col-s-12">
-            <div class="col-l-6 col-m-6 col-s-12">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aspernatur assumenda commodi dignissimos inventore maiores numquam optio,
-                sed voluptatum! Amet assumenda at atque, ducimus eius hic quaerat quidem unde voluptas!
-            </div>
+        <div class="col-l-12">
+            <div class="col-l-1">A coté</div>
+            <div class="col-l-6 col-l-centered t-center col-l-offset-3">Centrer</div>
 
-            <div class="col-l-6 col-m-6 col-s-12">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aspernatur assumenda commodi dignissimos inventore maiores numquam optio,
-                sed voluptatum! Amet assumenda at atque, ducimus eius hic quaerat quidem unde voluptas!
-            </div>
-
-            <div class="col-l-6 col-m-6 col-m-offset-3 col-s-hidden">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aspernatur assumenda commodi dignissimos inventore maiores numquam optio,
-                sed voluptatum! Amet assumenda at atque, ducimus eius hic quaerat quidem unde voluptas!
-            </div>
-        </div>
-
-        <div class="col-l-offset-2 col-l-8 col-m-offset-3 col-m-6 col-s-12">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aspernatur assumenda commodi dignissimos inventore maiores numquam optio,
-            sed voluptatum! Amet assumenda at atque, ducimus eius hic quaerat quidem unde voluptas!
         </div>
     </div>
 </body>

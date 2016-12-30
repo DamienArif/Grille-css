@@ -14,6 +14,12 @@ $columns: 12!default;
 	.col-#{$suffixe}-show {
 		display: block;
 	}
+	.col-#{$suffixe}-centered {
+		display: table;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+	}
 	@for $i from 0 through $columns {
 		.col-#{$suffixe}-offset-#{$i} {
 			margin-left: $i / $columns * 100%;
