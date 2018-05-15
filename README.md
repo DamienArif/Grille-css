@@ -1,10 +1,11 @@
-# Grille-css
+# Light grid
 
 ## Installation
 
 Download the grid-css by executing the following command at the root of your project
 
-    composer require darkh62/grille-css
+    composer require darkh62/light-grid
+   
 
 To see and understand how the css grid works, ![click here](https://github.com/Darkh62/Grille-css/blob/master/test.php) to see an example
 
