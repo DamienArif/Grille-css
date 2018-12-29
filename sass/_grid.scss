@@ -20,6 +20,9 @@ $columns: 12!default;
 		margin-right: auto;
 		float: none;
 	}
+	.col-#{$suffixe}-inline {
+		display: inline-block;
+	}
 	@for $i from 0 through $columns {
 		.col-#{$suffixe}-offset-#{$i} {
 			margin-left: $i / $columns * 100%;
