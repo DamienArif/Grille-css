@@ -23,8 +23,8 @@
 <body>
     <div class="row">
         <div class="col-l-12">
-            <div class="col-l-1">A coté</div>
-            <div class="col-l-6 col-l-centered t-center col-l-offset-3">Centrer</div>
+            <div class="col-l-1">1 columns</div>
+            <div class="col-l-6 col-l-centered t-center col-l-offset-3">columns size 6 and center</div>
 
         </div>
     </div>
